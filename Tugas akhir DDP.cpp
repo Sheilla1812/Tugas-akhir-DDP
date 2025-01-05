@@ -3,7 +3,8 @@
 #include <fstream>
 #include <string>
 using namespace std;
-
+//refva lena 2400018113
+//baris 1-56
 struct Menu {
     string nama;
     int harga;
@@ -54,6 +55,8 @@ void cetakStruk(string namaPemesan, Menu daftarMenu[], int jumlahPesanan[], int 
     cout << "\nStruk telah dicetak ke file struk.txt\n";
 }
 
+//sheilla rizki fadillah 2400018115
+//baris 60-112
 int main() {
     Menu daftarMenu[] = {
         {"rendang", 10000},
